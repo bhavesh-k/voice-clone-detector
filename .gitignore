@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.DS_Store
+
+# Personal media: session mic recordings, demo clips and the caller photo stay local.
+recordings/
+clips/*
+!clips/.gitkeep
+static/caller.jpg

@@ -1,0 +1,15 @@
+[project]
+name = "voice-clone-detector"
+version = "0.1.0"
+description = "Compare open-weights speech deepfake detectors on your own clips"
+requires-python = ">=3.11"
+dependencies = [
+    "einops",
+    "fastapi>=0.143.0",
+    "huggingface-hub",
+    "numpy",
+    "safetensors",
+    "torch",
+    "transformers",
+    "uvicorn[standard]>=0.54.0",
+]
